@@ -6,13 +6,13 @@ import PricingData from '../pricingdata/pricingdata.component';
 
 function Pricing() {
   return (
-    <section>
+    <section className="bg-light">
             <Container>
                 <Row>
                     <Col>
                     <div className="mt-5 text-center">
                         <Title> choose your plan </Title>
-                        <Paragraph> Let's choose the package that is best for you and explore it happily and cheerfully </Paragraph>
+                        <Paragraph> Let's choose the package that is best for you and explore it happily and <br/> cheerfully </Paragraph>
                     </div>
                     </Col>
                     <Col xs={12} className="my-5">

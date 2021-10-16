@@ -9,7 +9,7 @@ import './features.styles.css';
 
 function Features() {
     return (
-        <section className="bglight">
+        <section>
             <Container>
                 <Row>
                     <Col className="justify-content-center">
@@ -19,7 +19,7 @@ function Features() {
                             </Col>
 
                             <Col md={5} className="m-auto">
-                                <Title> features we provide for you </Title>
+                                <Title> features we provide <br/> for you </Title>
                                 <Paragraph> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum voluptate consectetur omnis, accusamus sit pariatur? </Paragraph>
                                 <ListGroup>
                                     <ListGroup.Item> <FontAwesomeIcon className="color" icon={faSquare} /> <span className="margin"> Cras justo odio </span> </ListGroup.Item>
