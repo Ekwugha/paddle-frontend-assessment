@@ -1,6 +1,8 @@
 import React from 'react'
 import CustomButton from '../button/button.component';
 import { Container, Col, Row, Image, ListGroup } from 'react-bootstrap';
+import Title from '../title/title.component';
+import Paragraph from '../title-paragraph/title-paragraph.component';
 import { faSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './features.styles.css';
@@ -17,8 +19,8 @@ function Features() {
                             </Col>
 
                             <Col md={5} className="m-auto">
-                                <h1 className="text-capitalize display-5"> features we provide for you </h1>
-                                <p className="py4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum voluptate consectetur omnis, accusamus sit pariatur? </p>
+                                <Title> features we provide for you </Title>
+                                <Paragraph> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum voluptate consectetur omnis, accusamus sit pariatur? </Paragraph>
                                 <ListGroup>
                                     <ListGroup.Item> <FontAwesomeIcon className="color" icon={faSquare} /> <span className="margin"> Cras justo odio </span> </ListGroup.Item>
                                     <ListGroup.Item> <FontAwesomeIcon className="color" icon={faSquare} /> <span className="margin"> Dapibus ac facilisis in </span> </ListGroup.Item>
