@@ -7,7 +7,7 @@ import './landingpage.styles.css';
 function LandingPage() {
     return (
         <Container data-aos='fade-up'>
-            <Row className="box">
+            <Row className="">
                 <Col className="justify-content-center">
                     <Row className="my-5">
                         <Col md={6} className="m-auto">
