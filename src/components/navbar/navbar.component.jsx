@@ -7,7 +7,7 @@ import './navbar.styles.css';
 
 export default function CustomNavbar() {        
     return (
-        <Navbar scrolling='true' expand="md" fixed="top" className="py-3">
+        <Navbar scrolling='true' expand="md" className="py-3">
 
             {/* navbar links */}
             <Container>

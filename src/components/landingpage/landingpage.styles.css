@@ -1,0 +1,9 @@
+.box{
+    height: 80vh;
+}
+.text-shadow{
+    text-shadow: rgb(191, 0, 255) 1px 0 10px;
+}
+.img{
+    width: 100%;
+}

@@ -1,10 +1,10 @@
 .color{
-    color: purple;
+    color: rgb(191, 0, 255);
 }
 .navbar-brand{
     font-size: 25px;
     font-weight: 800;
-    color: purple !important;
+    color: rgb(191, 0, 255) !important;
 }
 .navbar-toggler{
     border: none !important;
@@ -18,7 +18,7 @@
     position: relative;
 }
 .navbar .navbar-nav .nav-link:hover {
-    color: purple;
+    color: rgb(191, 0, 255);
 }
 .navbar .navbar-nav .nav-link::after {
     position: absolute;
@@ -26,7 +26,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    background-color: purple;
+    background-color: rgb(191, 0, 255);
     color: transparent;
     width: 0%;
     content: '.';
@@ -65,16 +65,16 @@
     color: black !important;
 }
 .sign-in:hover{
-    color: purple !important;
+    color: rgb(191, 0, 255) !important;
 }
 .bg-color{
     color: black;
-    border-color: purple;
+    border-color: rgb(191, 0, 255);
     height: 50px !important;
     text-align: center;
     font-weight: 500;
 }
 .bg-color:hover{
-    border-color: purple;
-    color: purple;
+    border-color: rgb(191, 0, 255);
+    color: rgb(191, 0, 255);
 }

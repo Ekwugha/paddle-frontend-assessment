@@ -12,4 +12,6 @@ This dependency is a css framework that is use for easy styling and responsivene
 
 This dependency is for routing purposes.
 
+### `fontawesome-icon`
 
+This dependency is for adding ions to a website.
