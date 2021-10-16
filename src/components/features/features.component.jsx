@@ -1,5 +1,4 @@
 import React from 'react'
-import CustomButton from '../button/button.component';
 import { Container, Col, Row, Image, ListGroup } from 'react-bootstrap';
 import Title from '../title/title.component';
 import Paragraph from '../title-paragraph/title-paragraph.component';

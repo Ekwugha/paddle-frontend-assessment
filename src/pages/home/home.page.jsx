@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row, Image } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import CustomButton from '../../components/button/button.component'
 import Landingpage from '../../components/landingpage/landingpage.component';
 import User from '../../components/users/users.component';
@@ -7,6 +7,7 @@ import Features from '../../components/features/features.component';
 import Pricing from '../../components/pricing/pricing.component';
 import Title from '../../components/title/title.component';
 import Paragraph from '../../components/title-paragraph/title-paragraph.component';
+import Subscribe from '../../components/subscribe/subscribe.component';
 import { faDiscord, faSpotify, faAmazon, faReddit, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -51,6 +52,7 @@ function HomePage() {
                 </Row>
             </Container>
             </div>
+            <Subscribe />
         </section>
     )
 }

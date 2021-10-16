@@ -1,7 +1,5 @@
 import React from 'react';
 import { Col, Card } from 'react-bootstrap';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import './card.styles.css';
 
 export default function CardBody( {title, price, btn, image, id, content1, content2, content3, content4, content5} ) {

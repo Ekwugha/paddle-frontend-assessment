@@ -6,7 +6,7 @@ import './users.styles.css';
 
 function Users() {
     return (
-        <Container className="box-shadow-full mb-5">
+        <Container className="box-shadow-full my-5">
             <Row>
                 <Col>
                     <Row className="mx-auto mb-5">
