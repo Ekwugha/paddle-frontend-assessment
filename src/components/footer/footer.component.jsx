@@ -9,10 +9,10 @@ const Footer = () => (
                 <Col xs={12} md={6}>
                     <h2 className="footer-brand">PEDDLE</h2>
                     <p className="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/> Facere fuga nobis deserunt ratione, quas earum enim <br/> molestiae in ut eos?z</p>
-                    <p className="footer-text text-muted pt-3">&copy; 2020PADDLE</p>
+                    {/* <p className="footer-text text-muted pt-3">&copy; 2020PADDLE</p> */}
                 </Col>
 
-                <Col xs={12} md={2}>
+                <Col xs={6} md={2}>
                     <h5>Products</h5>
                     <ul className="list-unstyled text-secondary">
                         <li>Loremetu.</li>
@@ -23,7 +23,7 @@ const Footer = () => (
                     </ul>
                 </Col>
 
-                <Col xs={12} md={2}>
+                <Col xs={6} md={2}>
                     <h5>Engage</h5>
                     <ul className="list-unstyled text-secondary">
                         <li>Loremetu.</li>
@@ -34,13 +34,14 @@ const Footer = () => (
                     </ul>
                 </Col>
 
-                <Col xs={12} md={2}>
+                <Col xs={6} md={2}>
                     <h5>Earn Money</h5>
                     <ul className="list-unstyled text-secondary">
                         <li>Ulterices</li>
                         <li>Fuseses</li>
                     </ul>
                 </Col>
+                <div><p className="footer-text text-muted pt-3">&copy; 2020PADDLE</p></div>
             </Row>
         </Container>
     </footer>
