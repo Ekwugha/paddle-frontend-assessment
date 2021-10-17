@@ -14,7 +14,7 @@ export default function CustomNavbar() {
                 <Navbar.Brand as={Link} to="/"  >PEDDLE</Navbar.Brand>
                 
                 <Navbar.Toggle >
-                    <FontAwesomeIcon icon={faBars}  size="lg"/>
+                    <FontAwesomeIcon icon={faBars} className="color" size="lg"/>
                 </Navbar.Toggle  >
 
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
