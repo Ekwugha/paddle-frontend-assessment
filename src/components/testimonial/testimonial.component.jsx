@@ -1,4 +1,6 @@
 import React from 'react';
+import Title from '../title/title.component';
+import Paragraph from '../title-paragraph/title-paragraph.component';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './testimonial.styles.css';
@@ -6,6 +8,10 @@ import './testimonial.styles.css';
 function Testimonial() {
     return (
         <div>
+            <div className="text-center">
+                <Title> Trusted by Thousands of <br/> Happy Customers </Title>
+                <Paragraph> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolores eius, officia <br/> amet laudantium voluptates iure nemo consectetur deleniti eum! </Paragraph>
+            </div>
             <Carousel
                 showArrows={true}
                 infiniteLoop={true}
