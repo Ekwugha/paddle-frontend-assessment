@@ -15,7 +15,7 @@ function App() {
       <CustomNavbar />
       {/* <HomePage /> */}
       <Switch>
-          <Route exact path='/homepage' component={HomePage} />
+          <Route exact path='/' component={HomePage} />
           <Route  path='/pricing' component={Pricing} />
           <Route  path='/testimonials' component={Testimonial} />
           <Route  path='/about' component={Features} />

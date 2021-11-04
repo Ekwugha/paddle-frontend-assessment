@@ -20,7 +20,7 @@ export default function CustomNavbar() {
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 
                 <Nav className="mx-auto text-dark">
-                    <Nav.Link as={Link} to="/homepage"  > Home </Nav.Link>
+                    <Nav.Link as={Link} to="/"  > Home </Nav.Link>
 
                     <Nav.Link as={Link} to="/about"  > About </Nav.Link>
 
